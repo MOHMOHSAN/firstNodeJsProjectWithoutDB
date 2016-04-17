@@ -1,0 +1,35 @@
+express deployInHeroku
+cd deployInHeroku and npm install
+npm start
+
+
+//------- configure ur project before hosting ------- //
+1.		in root of application, create new file called Procfile
+		then add 
+			web: npm start OR web: node ./bin/www [program u want to run first]
+
+2.		install dependecies
+			npm install
+
+
+3.		create new file called .gitignore in root application and add
+			node_modules [to avoid adding node_modules in github]
+
+
+
+//-------- added in github --------- //
+
+In github website,
+1.		create new repository
+
+
+In terminal,
+1.		git init
+2.		git add .
+3. 		git commit -m "initial commit"
+
+
+// -------- hosted in heroku -------//
+
+
+
